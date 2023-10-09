@@ -1,6 +1,6 @@
 # Filmoteka
 
-https://mikel538.github.io/Filmoteka/
+https://szczepanskimichal.github.io/Filmoteka/
 
 ## Opis
 
