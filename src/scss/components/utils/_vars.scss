@@ -1,0 +1,12 @@
+$colors: (
+  'orange': #ff6b08,
+  'footer': #f7f7f7,
+  'header': #fff,
+  'header-error': #ff001b,
+  'black': #000000,
+  'team-background': #fff,
+);
+
+@function getcolor($key) {
+  @return map-get($colors, $key);
+}

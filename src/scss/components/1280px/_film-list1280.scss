@@ -1,0 +1,21 @@
+@media screen and (min-width: 1280px) {
+  .films {
+    max-width: 1280px;
+    width: 100%;
+    margin: 120px auto 20px auto;
+    &__list {
+      gap: 16px;
+      width: 1217px;
+      justify-content: center;
+      margin: 70px 0 20px 0;
+
+      &-item {
+        max-width: 395px;
+
+        > img {
+          max-width: 395px;
+        }
+      }
+    }
+  }
+}

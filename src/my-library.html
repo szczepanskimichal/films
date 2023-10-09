@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Browser recognizes user's browser mode light/dark -->
+    <meta name="color-scheme" content="light dark" />
+
+    <title>Filmoteka</title>
+
+    <link rel="stylesheet" href="../node_modules/modern-normalize/modern-normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+    />
+    <link rel="icon" type="image.jpg" href="./images/favicon.png" />
+
+    <script src="./index.js" type="module" defer></script>
+  </head>
+  <body>
+    <header class="header header--library">
+      <include src="./partials/header-library.html"></include>
+    </header>
+
+    <main>
+      <include src="./partials/library.html"></include>
+    </main>
+
+    <footer class="footer library-page">
+      <include src="./partials/footer.html"></include>
+    </footer>
+
+    <include src="./partials/movie-modal-library.html"></include>
+
+    <include src="./partials/modal-team.html"></include>
+  </body>
+</html>

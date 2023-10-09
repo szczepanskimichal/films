@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) {
+  .films {
+    &__list {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      flex-wrap: wrap;
+      width: 704px;
+      margin-top: 70px;
+
+      &-item {
+        max-width: 336px;
+
+        > img {
+          max-width: 336px;
+        }
+      }
+    }
+  }
+}

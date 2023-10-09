@@ -1,0 +1,58 @@
+@import '../utils/vars';
+
+.footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  justify-content: center;
+  width: 100%;
+  color: #545454;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 100;
+
+  @media (prefers-color-scheme: light) {
+    background-color: getcolor('footer');
+  }
+  @media (prefers-color-scheme: dark) {
+    background-color: #1a181f;
+  }
+
+  > p:first-child {
+    margin-bottom: 10px;
+  }
+}
+
+.footer:not(.hidden) {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.footer__link {
+  padding-top: 10px;
+  padding-bottom: 0%;
+  color: #545454;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: getcolor('orange');
+
+  &:hover,
+  &:focus {
+    color: cornflowerblue;
+  }
+}
+
+/* Стили для футера на странице библиотеки */
+.footer.library-page {
+  /* Ваши стили для футера на странице библиотеки */
+  opacity: 1;
+  transform: translateY(0);
+  /* Дополнительные стили, если необходимо */
+}
