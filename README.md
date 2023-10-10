@@ -1,24 +1,30 @@
 # Filmoteka
 
-https://szczepanskimichal.github.io/Filmoteka/
+https://mikel538.github.io/Filmoteka/
 
-## Opis
+## Description
 
-Jest to strona stworzona przez zespół studentów, biorących udział w kursie Full Stack Developer
-organizowanym przez GoIT.
+The page preview is visible on localhost: http://localhost:1234
 
-Strona przedstawia wyszukiwarkę filmów, która prezentuje ranking filmów oraz popularne ostatnio
-filmy. Posiada funkcję wyszukiwarki, umożliwiającą użytkownikowi znalezienie konkretnego filmu.
-Wyświetlane są oceny dla filmu, jego popularność, a także istnieje możliwość odtworzenia trailera
-filmu.
+First, type the command in the bash terminal:
+npm install
+then:
+npm rundev
 
-## Funkcje
+The website presents a movie search engine that presents the ranking of movies and recently popular ones
+movies. It has a search function that allows the user to find a specific movie.
+The film's ratings, its popularity are displayed, and it is also possible to play the trailer
+movie.
 
-- Wyszukiwarka filmów
-- Wyświetlanie rankingów filmów
-- Lista popularnych ostatnio filmów
-- Wyświetlanie ocen i popularności filmów
-- Możliwość odtworzenia trailera filmu
+## Functions
+
+- Video search engine
+- View video rankings
+- List of recently popular movies
+- View ratings and popularity of videos
+- Possibility to play the movie trailer
+
+## Technologies
 
 ## Technologie
 
